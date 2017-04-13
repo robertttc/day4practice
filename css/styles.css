@@ -1,0 +1,50 @@
+.header{
+  background-color: #0000ff;
+  height: 150px;
+  border: 2px solid #000;
+}
+
+.nav{
+  background-color: green;
+  height: 50px;
+  border: 2px solid #000;
+}
+
+.red{
+  background-color: red;
+  height: 150px;
+  border: 2px solid #000;
+}
+
+.turqoise{
+  background-color: turquoise;
+  height: 150px;
+  border: 2px solid #000;
+}
+
+.orange{
+  background-color: orange;
+  height: 125px;
+  border: 2px solid #000;
+
+}
+
+footer{
+  background-color: #000;
+  height: 50px;
+
+}
+
+/*MEDIA QUERIES*/
+
+@media screen and (max-width: 475px) {
+  footer {
+    background-color: pink;
+  }
+}
+
+@media screen and (min-width: 476px max-width: 768px){
+  footer {
+    background-color: yellow;
+  }
+}
